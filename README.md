@@ -39,7 +39,7 @@ List of fucntions and system calls used
 29. waitpid (man 2 waitpid)
 30. wait3 (man 2 wait3)
 31. wait4 (man 2 wait4)
-. write (man 2 write)
+32. write (man 2 write)
 
 ## Compilation
 The shell will be compiled this way: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
