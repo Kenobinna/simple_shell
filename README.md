@@ -1,12 +1,12 @@
 # SIMPLE UNIX SHELL 🐚
 
-#Description 📃.
+## Description 📃.
 This is a simple implementation of a UNIX command line interpreter. The shell can interpret and execute command line arguments read from the standard input. the shell read lines from a file or terminal line which is then interpreted and executed if the command is valid
 
-#Requirements
+## Requirements
 All the files are to be compiled on an Ubuntu 14.04 LTS machine with: gcc -Wall -Werror -Wextra -pedantic *.c All files ends end with a new line, with no memory leaks All code will use the Betty style. It will be checked using betty-style.pl and betty-doc.pl All code will be tested using the test files in the test folder. The simple shell supports most shell commands, such as cat, pwd, ls -la and more. Return Value : The shell returns a value of 0 if the command is valid and the command is executed successfully.
 
-#Output 📁
+## Output 📁
 The program must have the exact same output as sh (/bin/sh) as well as the exact same error output. The only difference is when you print an error, the name of the program must be equivalent to the argv[0] Usage
 
 List of fucntions and system calls used
@@ -39,12 +39,12 @@ List of fucntions and system calls used
 29. waitpid (man 2 waitpid)
 30. wait3 (man 2 wait3)
 31. wait4 (man 2 wait4)
-32. write (man 2 write)
+. write (man 2 write)
 
-##Compilation
+## Compilation
 The shell will be compiled this way: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
-##Testing
+## Testing
 The shell works like this in interactive mode:
 
 $ ./hsh ($) /bin/ls hsh main.c shell.c ($) ($) exit $
@@ -53,7 +53,7 @@ But also in non-interactive mode:
 
 $ echo "/bin/ls" | ./hsh hsh main.c shell.c test_ls_2 $ $ cat test_ls_2 /bin/ls /bin/ls $ $ cat test_ls_2 | ./hsh hsh main.c shell.c test_ls_2 hsh main.c shell.c test_ls_2 $
 
-###Mandatory Tasks
+## Mandatory Tasks
 0. Betty would be proud
 Write a beautiful code that passes the Betty checks
 
@@ -83,7 +83,7 @@ Implement the env built-in, that prints the current environment
 
 end of mandatory
 
-###Advanced Tasks
+## Advanced Tasks
 
 6. Simple shell 0.1.1
 Simple shell 0.1 +
@@ -149,6 +149,6 @@ Simple shell 1.0 +
 Usage: simple_shell [filename]
 Your shell can take a file as a command line argument The file contains all the commands that your shell should run before exiting The file should contain one command per line In this mode, the shell should not print a prompt and should not read from stdin
 
-##Contributors.
+## Contributors.👬
 1. Kenneth Ahamefule.
 2. Ezekiel Odutola.
